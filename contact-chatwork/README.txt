@@ -1,18 +1,17 @@
-=== Plugin Name ===
+=== Contact chatwork ===
 Contributors: (this should be a list of wordpress.org userid's)
 Donate link: https://softworldvietnam.com/
-Tags: comments, spam
+Tags: contact form, chartwork, task chatwork
 Requires at least: 3.0.1
 Tested up to: 3.4
 Stable tag: 4.3
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv2
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+This is a lightweight plugin to create  task in Chatwork from contact form and it's easy to customize.
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+This is a lightweight plugin to create  task in Chatwork from contact form and it's easy to customize. Add shortcode [sw-contact] on a page or use the widget to display your form.
 
 For backwards compatibility, if this section is missing, the full length of the short description will be used, and
 Markdown parsed.
@@ -44,9 +43,8 @@ This section describes how to install the plugin and get it working.
 e.g.
 
 1. Upload `contact-chatwork.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('contact_chatwork_hook'); ?>` in your templates
-
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3: Setting 
 == Frequently Asked Questions ==
 
 = A question that someone might have =

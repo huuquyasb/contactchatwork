@@ -110,11 +110,7 @@ class Contact_Chatwork {
 		 * of the plugin.
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-contact-chatwork-i18n.php';
-		/**
-		 * The class shortcode
-		 * side of the site.
-		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-contact-chatwork-shortcode.php';
+
 		/**
 		 * The class responsible for defining all actions that occur in the admin area.
 		 */
@@ -176,7 +172,8 @@ class Contact_Chatwork {
 
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
-
+		//Create shortcode
+		$this->loader->add_shortcode( 'sw-contact', $plugin_public, "sw_shortcode_function", $priority = 10, $accepted_args = 2 );
 	}
 
 	/**
