@@ -1,0 +1,33 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ * huuquyasb
+ */
+ .sw-contact input[type=text], .sw-contact input[type=email], .sw-contact select {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .sw-contact input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .sw-contact input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .sw-contact .msg-success{
+    color: green;
+  }
+  .sw-contact .msg-error{
+    color: red;
+  }

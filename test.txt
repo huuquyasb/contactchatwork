@@ -1,1 +1,1 @@
-Chatwork
+Plugin for wordpress
